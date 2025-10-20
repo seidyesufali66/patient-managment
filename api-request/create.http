@@ -1,0 +1,15 @@
+### GET request to example server
+POST http://localhost:4004/api/patients
+Content-Type: application/json
+
+{
+  "name": "seid ali ",
+  "email": "ali@dfdsfds",
+  "address": "texasasdsad",
+  "dateOfBirth": "2012-12-12",
+  "registeredDate": "2025-01-10"
+}
+
+
+
+

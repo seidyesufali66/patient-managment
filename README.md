@@ -34,7 +34,7 @@ Installation
         5. Patient with fields id, name, age, address, and .
         Table name Patients
 |  column name  |   descriptions | 
-|  patient Id   |   UUID |
+|  patient Id   |   UUID |  primary key 
 |  name         |   String |
 |  age          |   Integer |
 |  address      |   String |

@@ -51,5 +51,17 @@ Installation
      11. Dockerize the application:
      12. docker build -t your-dockerhub-username/patient-microservice
      13. Push the Docker image to Docker Hub:
-     14. docker push your-dockerhub-username/patient-microservice
-  15. 
+         14. docker push your-dockerhub-username/patient-microservice
+  Introduction To Redis caching 
+      1. The first step is to add the necessary dependencies for Redis in your maven pom.xml file.
+      - one of the advantages of using Redis is its speed. Redis is an in-memory data store,
+      - which means that it can retrieve data much faster than traditional databases that rely on disk storage.
+      - Redis is in memory data structure store, used as a database, cache and message broker
+      - it is key value store
+      - it supports different kind of data structures such as strings, hashes, lists, sets,
+      - so that we can  serve the request faster without hitting the database every time
+      - we can cache the frequently accessed data in redis
+      2. Configure Redis connection settings in the application.properties file.
+      3. Create a Redis configuration class to set up the RedisTemplate bean.
+     ![img.png]
+     4. 

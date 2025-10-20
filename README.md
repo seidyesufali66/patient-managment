@@ -41,4 +41,15 @@ Installation
 |  dateOfBirth  |   LocalDate |
 |  dateOfRegistered  |   LocalDate |
         
-        
+        git hub workflow for maven build and docker build and push to docker hub
+     5. Create a repository on Docker Hub to store the Docker images.
+     6. Update the application.properties file with your PostgreSQL database credentials.
+     7. Build the project using Maven:
+     8. mvn clean install
+     9. Run the application:
+     10. mvn spring-boot:run
+     11. Dockerize the application:
+     12. docker build -t your-dockerhub-username/patient-microservice
+     13. Push the Docker image to Docker Hub:
+     14. docker push your-dockerhub-username/patient-microservice
+  15. 

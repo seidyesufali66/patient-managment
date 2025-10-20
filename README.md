@@ -64,4 +64,4 @@ Installation
       2. Configure Redis connection settings in the application.properties file.
       3. Create a Redis configuration class to set up the RedisTemplate bean.
      ![img.png]
-     4. 
+     

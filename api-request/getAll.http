@@ -1,4 +1,4 @@
 ### GET request to example server
-GET http://localhost:4004/api/patients
+GET http://localhost:4004/api/patients?page=4&sort=desc&size=2
 Authorization: Bearer {{token}}
 
